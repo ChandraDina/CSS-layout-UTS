@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - Home</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Menghubungkan file CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color:#00FFFF;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f4f4f4;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .feature-item {
+            width: 300px;
+            padding: 20px;
+            background-color: #eaeaea;
+            border-radius: 5px;
+        }
+
+        .feature-item img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #00FFFF;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="hobi.html">Hobi</a></li>
+                <li><a href="jadwal.html">Jadwal</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="tentang-saya.html">Tentang-saya</a></li>
+                <li><a href="pendaftaran.html">Pendaftaran</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>Welcome to My Website</h1>
+            <p>Hallo ini adalah halaman website saya.</p>
+            <a href="#" class="btn">Learn More</a>
+        </section>
+
+        <section class="features">
+            <h2>Our Features</h2>
+            <div class="feature-item">
+                <img src="WhatsApp Image 2024-03-26 at 10.09.53 (1).jpeg" alt="Feature 1">
+                <h3>Feature 1</h3>
+                <p>Description of feature 1.</p>
+            </div>
+            <div class="feature-item">
+                <img src="WhatsApp Image 2024-03-26 at 10.09.55 (2).jpeg" alt="Feature 2">
+                <h3>Feature 2</h3>
+                <p>Description of feature 2.</p>
+            </div>
+            <!-- Add more feature items here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script> <!-- Menghubungkan file JavaScript -->
+</body>
+</html>
