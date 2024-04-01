@@ -39,6 +39,7 @@
             text-align: center;
             padding: 50px 0;
             background-color: #f4f4f4;
+            border: none; /* Menghilangkan border */
         }
 
         .features {
@@ -59,57 +60,59 @@
             width: 100%;
             border-radius: 5px;
             margin-bottom: 10px;
+            object-fit: cover; /* Properti untuk mengatur gambar sesuai ukuran */
+            max-height: 200px; /* Batasi tinggi gambar */
         }
 
         footer {
             background-color: #00FFFF;
-            color: #fff;
+            color: black; /* Mengubah warna tulisan pada footer menjadi hitam */
             text-align: center;
             padding: 10px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
         }
+
+        nav h1 {
+            color: black; /* Mengubah warna tulisan menjadi hitam */
+        }
     </style>
 </head>
 <body>
     <header>
         <nav>
+            <h1>Welcome to My Website</h1> <!-- Bagian "Welcome to My Website" ditempatkan di sini -->
             <ul>
-                <li><a href="hobi.html">Hobi</a></li>
-                <li><a href="jadwal.html">Jadwal</a></li>
+                <li><a href="pendaftaran.html">Pendaftaran</a></li>
                 <li><a href="profil.html">Profil</a></li>
                 <li><a href="tentang-saya.html">Tentang-saya</a></li>
-                <li><a href="pendaftaran.html">Pendaftaran</a></li>
+                <li><a href="hobi.html">Hobi</a></li>
+                <li><a href="jadwal.html">Jadwal</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
         <section class="hero">
-            <h1>Welcome to My Website</h1>
-            <p>Hallo ini adalah halaman website saya.</p>
-            <a href="#" class="btn">Learn More</a>
+            <p>Hallo Ini Adalah Halaman Website Dinaaa.</p>
         </section>
 
         <section class="features">
-            <h2>Our Features</h2>
+            <h2>Dinosaurus</h2>
+            
             <div class="feature-item">
-                <img src="WhatsApp Image 2024-03-26 at 10.09.53 (1).jpeg" alt="Feature 1">
-                <h3>Feature 1</h3>
-                <p>Description of feature 1.</p>
-            </div>
-            <div class="feature-item">
-                <img src="WhatsApp Image 2024-03-26 at 10.09.55 (2).jpeg" alt="Feature 2">
-                <h3>Feature 2</h3>
-                <p>Description of feature 2.</p>
+                <img src="WhatsApp Image 2024-03-27 at 15.59.37.jpeg" alt="Feature 2">
+                <h3>Gallimimus</h3>
+                <p>
+                    Gallimimus adalah salah satu jenis dinosaurus theropoda yang hidup pada periode Kapur Akhir, sekitar 70-65 juta tahun yang lalu. Nama ilmiahnya adalah Gallimimus bullatus, dan dinosaurus ini termasuk dalam kelompok ornithomimosauria, yang artinya "kadal mirip burung.".</p>
             </div>
             <!-- Add more feature items here -->
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p>&copy; Chandra Dina Sefrilian | 233307039 | 2B.</p>
     </footer>
 
     <script src="js/script.js"></script> <!-- Menghubungkan file JavaScript -->
