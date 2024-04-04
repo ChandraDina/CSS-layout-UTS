@@ -3,11 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>My Website - Home</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Menghubungkan file CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: url('download.jpg');
+        }
+
+        .frame {
+            max-width: 1200px; /* Atur lebar maksimum frame */
+            margin: 0 auto; /* Posisikan frame di tengah */
+            padding: 20px; /* Tambahkan padding untuk isi frame */
+            border: 2px solid #ccc; /* Tambahkan border pada frame */
+            border-radius: 10px; /* Atur sudut border */
+            background-color: #f4f4f4; /* Warna latar belakang frame */
+        }
+
+        header {
+            background-color: #98FB98;
+            color: #000000;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .feature-item {
+            width: 300px;
+            padding: 20px;
+            /* background-color: #eaeaea; */ /* Komentari properti background-color */
+            /* border-radius: 5px; */ /* Komentari properti border-radius */
+        }
+
+        .feature-item img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            object-fit: cover;
+            max-height: 200px;
+        }
+
+        footer {
+            background-color: #98FB98;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        nav h1 {
+            color: black;
+        }
+
+        /* Tambahkan gaya untuk menengahkan teks dan link */
+        .center-text {
+            text-align: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <!-- Content for Home page -->
+    <header>
+        <h1 class="center-text">Welcome to My Website</h1> <!-- Tambahkan kelas center-text untuk menengahkan teks -->
+        <nav>
+            <ul>
+                <li><a href="pendaftaran.html">Pendaftaran</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="tentang-saya.html">Tentang-saya</a></li>
+                <li><a href="hobi.html">Hobi</a></li>
+                <li><a href="jadwal.html">Jadwal</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+                
+            
+                <!-- Add more feature items here -->
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Chandra Dina Sefrilian | 233307039 | 2B.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

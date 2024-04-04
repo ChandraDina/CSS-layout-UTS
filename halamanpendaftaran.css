@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('download.jpg'); /* Ganti path dengan path gambar Anda */
+    background-size: cover; /* Untuk mengatur agar gambar mengisi seluruh latar belakang */
+    background-position: center; /* Untuk mengatur posisi gambar di tengah */
+}
+
+.login-container {
+    width: 300px;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Menggunakan transparansi untuk background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.input-group input {
+    width: calc(100% - 16px); /* Penyesuaian untuk padding input */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: calc(100% - 16px); /* Penyesuaian untuk padding tombol */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
