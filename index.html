@@ -4,23 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website - Home</title>
-    <link rel="stylesheet" href="css/style.css"> <!-- Menghubungkan file CSS -->
+  
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-image: url('download.jpg');
         }
-
-        .frame {
-            max-width: 1200px; /* Atur lebar maksimum frame */
-            margin: 0 auto; /* Posisikan frame di tengah */
-            padding: 20px; /* Tambahkan padding untuk isi frame */
-            border: 2px solid #ccc; /* Tambahkan border pada frame */
-            border-radius: 10px; /* Atur sudut border */
-            background-color: #f4f4f4; /* Warna latar belakang frame */
+        .frame img {
+            top:30%;
+            margin-bottom: 15%;
+            height: auto;
+            width: 100%; /* Gambar mengisi lebar frame */
+            border-radius: 10px; /* Sudut border gambar */
         }
 
         header {
@@ -42,34 +39,16 @@
         }
 
         main {
-            padding: 20px;
+            padding: 20px;    
         }
 
-        .hero {
+        .center-text {
             text-align: center;
-            padding: 50px 0;
         }
 
-        .features {
+        nav ul {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
-            gap: 20px;
-        }
-
-        .feature-item {
-            width: 300px;
-            padding: 20px;
-            /* background-color: #eaeaea; */ /* Komentari properti background-color */
-            /* border-radius: 5px; */ /* Komentari properti border-radius */
-        }
-
-        .feature-item img {
-            width: 100%;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            object-fit: cover;
-            max-height: 200px;
         }
 
         footer {
@@ -85,21 +64,11 @@
         nav h1 {
             color: black;
         }
-
-        /* Tambahkan gaya untuk menengahkan teks dan link */
-        .center-text {
-            text-align: center;
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
     </style>
 </head>
 <body>
     <header>
-        <h1 class="center-text">Welcome to My Website</h1> <!-- Tambahkan kelas center-text untuk menengahkan teks -->
+        <h1 class="center-text">Welcome to My Website</h1>
         <nav>
             <ul>
                 <li><a href="pendaftaran.html">Pendaftaran</a></li>
@@ -112,10 +81,9 @@
     </header>
     
     <main>
-                
-            
-                <!-- Add more feature items here -->
-            </section>
+        <div class="frame">
+            <!-- Tambahkan gambar di sini -->
+            <img src="gambar/dinodina.jpg" alt="Dinodina">
         </div>
     </main>
 

@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('download.jpg'); /* Ganti path dengan path gambar Anda */
+    background-image: url('../gambar/download.jpg'); /* Ganti path dengan path gambar Anda */
     background-size: cover; /* Untuk mengatur agar gambar mengisi seluruh latar belakang */
     background-position: center; /* Untuk mengatur posisi gambar di tengah */
 }
